@@ -1,45 +1,7 @@
-// // import React from 'react'
-// import './Facilities.css'
-
-// const Facilities = () => {
-//   return (
-//     <div>
-//        <div className="contain">
-//         <div className="sec">
-//             <h2 className='facheading'>FACILITIES</h2>
-//             <ul>
-//                 <li className='listing'><i className="fa-solid fa-check fa-sm m-2"/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, recusandae.</li>
-//                 <li className='listing'><i className="fa-solid fa-check fa-sm m-2"/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, recusandae.</li>
-//                 <li className='listing'><i className="fa-solid fa-check fa-sm m-2"/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, recusandae.</li>
-//                 <li className='listing'><i className="fa-solid fa-check fa-sm m-2"/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, recusandae.</li>
-//                 {/* <li className='listing'><i className="fa-solid fa-check fa-sm m-2"/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, recusandae.</li>
-//                 <li className='listing'><i className="fa-solid fa-check fa-sm m-2"/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, recusandae.</li>
-//                 <li className='listing'><i className="fa-solid fa-check fa-sm m-2"/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, recusandae.</li> */}
-//             </ul>
-//         </div>
-//         <div className="sec">
-//             <h2 className='facheading'>STANDARD FORMS</h2>
-//             <ul>
-//                 <li className='listing'><i className="fa-solid fa-check fa-sm m-2"/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, recusandae.</li>
-//                 <li className='listing'><i className="fa-solid fa-check fa-sm m-2"/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, recusandae.</li>
-//                 <li className='listing'><i className="fa-solid fa-check fa-sm m-2"/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, recusandae.</li>
-//                 <li className='listing'><i className="fa-solid fa-check fa-sm m-2"/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, recusandae.</li>
-//                 {/* <li className='listing'><i className="fa-solid fa-check fa-sm m-2"/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, recusandae.</li>
-//                 <li className='listing'><i className="fa-solid fa-check fa-sm m-2"/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, recusandae.</li>
-//                 <li className='listing'><i className="fa-solid fa-check fa-sm m-2"/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, recusandae.</li> */}
-//             </ul>
-//         </div>
-//     </div>
-//     </div>
-//   )
-// }
-
-// export default Facilities
-
 
 // import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShip, faPlane, faTools, faGlobe, faUserShield, faLock } from '@fortawesome/free-solid-svg-icons';
+import { faShip, faPlane, faTools,  faUserShield, faLock } from '@fortawesome/free-solid-svg-icons';
 
 function LogisticsSection() {
   return (

@@ -1,5 +1,5 @@
 // Testimonials.js
-import React from 'react';
+// import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -9,7 +9,7 @@ const testimonialData = [
     id: 1,
     name: 'John Doe',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    image: 'john-doe.jpg', // Replace with actual image path
+    image: 'https://placekitten.com/300/200', // Replace with actual image path
   },
   {
     id: 2,

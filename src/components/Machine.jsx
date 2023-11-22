@@ -29,7 +29,7 @@ function App() {
           className="absolute left-0 top-1/2 transform -translate-y-1/2 px-4 py-2 bg-gray-500 text-white rounded"
           onClick={goToPrev}
         >
-          Previous
+          prev
         </button>
         <img
           src={images[currentIndex]}

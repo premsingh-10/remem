@@ -1,25 +1,30 @@
 // import React from 'react'
-import './style.css'
+import './style.css';
+// import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 // import logistics from './Logistics.jpg';
-// import Company from './Company.webp';
+// import Company from './Company.webp'
+
 
 const Navbar = () => {
   return (
     <>
         {/* <!-- Start Landing Page --> */}
+       
       <div className="landing-page">
         <header>
           <div className="container">
             <a href="#" className="logo">Remedy <b>Enterprises</b></a>
             <ul className="links">
-              <li>Home</li>
-              <li>About</li>
-              <li>Work</li>
-              <li>Get Started</li>
+              <li><a href ="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              {/* <li>Work</li> */}
+              <li>contact Us</li>
             </ul>
           </div>
         </header>
+        </div>
 
+        
 
 
 
@@ -35,7 +40,7 @@ const Navbar = () => {
             </div>
           </div>
         </div> */}
-      </div>
+      
       {/* <!-- End Landing Page --> */}
 
     </>
