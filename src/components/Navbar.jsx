@@ -1,5 +1,6 @@
 // import React from 'react'
 import './style.css';
+import { Link } from 'react-router-dom';
 // import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 // import logistics from './Logistics.jpg';
 // import Company from './Company.webp'
@@ -15,10 +16,10 @@ const Navbar = () => {
           <div className="container">
             <a href="#" className="logo">Remedy <b>Enterprises</b></a>
             <ul className="links">
-              <li><a href ="/">Home</a></li>
-              <li><a href="/about">About</a></li>
+              <li><Link to ="/">Home</Link></li>
+              <li><Link to="/about">About</Link></li>
               {/* <li>Work</li> */}
-              <li>contact Us</li>
+              <li><Link to ='/'>contact Us</Link></li>
             </ul>
           </div>
         </header>

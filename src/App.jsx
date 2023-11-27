@@ -1,36 +1,29 @@
 
 // import './App.css'
-// import AboutSection from './components/AboutSection'
-// import CompanySec from './components/CompanySec'
-// import Enquires from './components/Enquires'
+import AboutSection from './components/AboutSection'
+import CompanySec from './components/CompanySec'
+import Enquires from './components/Enquires'
 // import Facilities from './components/Facilities'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
-// import Testimonials from './components/Testimonials'
-// import Machine from './components/Machine'
+import Testimonials from './components/Testimonials'
+import Machine from './components/Machine'
 import Home from './pages/Home';
 import About from './pages/About'
+import {Route, Routes} from 'react-router-dom' ;
 
 
 
 
 function App() {
 
-  let Component 
-  switch (window.location.pathname) {
-    case "/":
-      Component = Home
-      break
-    case "/about":
-      // eslint-disable-next-line no-unused-vars
-      Component = About
-  }
+  
 
 
   return (
     <>
        <Navbar/>
-       <Component />
+       {/* <Component /> */}
       
         {/* <CompanySec />
         <AboutSection />
@@ -39,6 +32,12 @@ function App() {
         <Testimonials />
         </div>
         <Enquires /> */}
+        <div className="contianer">
+          <Routes>
+            <Route path ="/" element = {<Home />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
+        </div>
       <Footer />
     </>
   )
