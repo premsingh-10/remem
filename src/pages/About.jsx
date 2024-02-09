@@ -1,13 +1,14 @@
 // About.js
 
 // import React from 'react';
-import Vision from '../components/Vision'
+import VisionMission from '../components/Vision'
 import AboutUs from '../components/About';
+import photo from '../assets/IMG_5695.jpg'
 
 const About = () => {
   return <div>
     <AboutUs />
-    <Vision />
+    <VisionMission/>
   </div>;
 };
 

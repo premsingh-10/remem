@@ -6,10 +6,10 @@ import Factory3 from '../assets/IMG_5699.jpg';
 import Factory4 from '../assets/IMG_5706.jpg';
 
 const factories = [
-  { id: 1, image: Factory1, name: 'Factory 1' },
-  { id: 2, image: Factory2, name: 'Factory 2' },
-  { id: 3, image: Factory3, name: 'Factory 3' },
-  { id: 4, image: Factory4, name: 'Factory 4' },
+  { id: 1, image: Factory1, name: 'WareHouse 1' },
+  { id: 2, image: Factory2, name: 'WareHouse 2' },
+  { id: 3, image: Factory3, name: 'WareHouse 3' },
+  { id: 4, image: Factory4, name: 'WareHouse 4' },
 ];
 
 const FactoryGallery = () => {

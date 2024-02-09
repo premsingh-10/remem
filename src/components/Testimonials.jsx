@@ -7,16 +7,33 @@ import 'slick-carousel/slick/slick-theme.css';
 const testimonialData = [
   {
     id: 1,
-    name: 'John Doe',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: 'Pradip Dasharath Nate',
+    designation : 'Senior AGM - Sales APAR Industries',
+    text: 'Since the beginning, your service has been excellent. You have always been flexible to meet our business needs, and you consistently know how to complete tasks effectively.',
     image: 'https://placekitten.com/300/200', // Replace with actual image path
   },
   {
     id: 2,
-    name: 'Jane Smith',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quidem magnam eos atque consectetur, enim praesentium reprehenderit iusto dolor error voluptas earum! Error maiores et, doloribus vitae soluta tempora quibusdam!',
-    image: 'jane-smith.jpg', // Replace with actual image path
+    name: 'Nilesh Nikose',
+    designation : 'Zonal Sales Head - Spare Parts and Oil Sonalika Tractors Limited',
+    text: 'You are excelling in our implementation process. We haven not experienced this level of attention to detail or involvement before.',
+    image: 'https://placekitten.com/300/200', // Replace with actual image path
   },
+  {
+    id: 3,
+    name: 'Shrikant Madhekar',
+    designation : 'Senior Sales Manager KSB Limited',
+    text: 'Remedy Enterprises offers excellent customer service. They strive to resolve any issue efficiently, no matter the challenge.',
+    image: 'https://placekitten.com/300/200', // Replace with actual image path
+  },
+  {
+    id: 4,
+    name: 'Santosh Salunke',
+    designation : 'State Head - Sales ENI Lubricants',
+    text: 'The team collaborates with and backs the changes in our business. As our business expands, Remedy Enterprises has evolved alongside us, playing a vital role in our success.',
+    image: 'https://placekitten.com/300/200', // Replace with actual image path
+  }
+  
   // Add more testimonials as needed
 ];
 
@@ -42,6 +59,7 @@ const Testimonials = () => {
             />
             <p className="text-lg">{testimonial.text}</p>
             <p className="font-bold mt-4">{testimonial.name}</p>
+            <p className="font-bold ">{testimonial.designation}</p>
           </div>
         ))}
       </Slider>

@@ -97,7 +97,7 @@ function ContactForm() {
 
         {/* 
         <button type="submit" className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold px-4 py-2 rounded">Submit</button> */}
-        <button type="submit" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-3 py-2 rounded">Submit</button>
+        <a mailto="premsinghsengar28@gmail.com" type="submit" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-3 py-2 rounded">Submit</a>
 
       </form>
     </div>
