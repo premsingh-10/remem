@@ -5,7 +5,8 @@ const Footer = () => {
 
     const handleAnchorClick = () => {
     
-        const coordinates = '18.4530232,73.9570661';
+        const coordinates = '18.452972,73.9570556';
+        // 18°27'10.9"N 73°57'25.4"E
 
         const googleMapsUrl = `https://www.google.com/maps?q=${coordinates}`;
 

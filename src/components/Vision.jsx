@@ -1,13 +1,13 @@
 // EnterpriseVision.js
 import React from 'react';
-import Logo from '../assets/Logo.jpg'
+import Vision from '../assets/Vision-compass.jpg'
 
 const VisionMission = () => {
   return (
     <div className="bg-gray-100 min-h-screen flex items-center justify-center m-3">
       <div className="max-w-4xl p-4 bg-white rounded-lg shadow-md">
       <div className="mb-6">
-          <img src={Logo}
+          <img src={Vision}
            alt="Enterprise Vision" className="w-13 h-13 rounded-md" />
         </div>
         <h1 className="text-3xl font-bold mb-4">Our Enterprise Vision</h1>
