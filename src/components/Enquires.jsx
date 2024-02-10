@@ -96,7 +96,7 @@ function ContactForm() {
           <label htmlFor="message" className="block text-gray-600 text-sm font-semibold">Message</label>
           <textarea
             id="message"
-            name="message"
+            name="message1"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"

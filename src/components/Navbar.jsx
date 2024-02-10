@@ -23,7 +23,7 @@ const Navbar = () => {
               <li><Link to ="/">Home</Link></li>
               <li><Link to="/about">About</Link></li>
               {/* <li>Work</li> */}
-              <li ><Link to="/contactus" component = {ContactForm}>Contact Us</Link></li>
+              <li ><Link to="/contactus">Contact Us</Link></li>
             </ul>
             
           </div>

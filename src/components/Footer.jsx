@@ -25,7 +25,7 @@ const Footer = () => {
                                     <i className="fas fa-map-marker-alt"></i>
                                     <div className="cta-text" >
                                         <h4>Find us</h4>
-                                        <span onClick={handleAnchorClick}>Plot no 22 , Survey no 135, Uruli Devachi, Pune, Maharashtra </span><br/>
+                                        <span onClick={handleAnchorClick}><u>Plot no 22 , Survey no 135, Uruli Devachi, Pune, Maharashtra </u></span><br/>
                                         <span>412308</span>
                                     </div>
                                 </div>

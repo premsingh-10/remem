@@ -23,7 +23,7 @@ const Home = () => {
         <AboutSection />
         {/* <Machine /> */}
         <div className="container mx-auto p-4">
-          <h1 className="text-3xl font-bold mb-4">Factory Image Gallery</h1>
+          <h1 className="text-3xl font-bold mb-4">Warehouse Images</h1>
           <FactoryGallery images={factoryImages} />
         </div>
         <div className='m-5'>
